@@ -1,3 +1,10 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .contact{
     display: flex;
     justify-content: space-evenly;
