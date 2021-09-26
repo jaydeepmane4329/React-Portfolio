@@ -30,7 +30,7 @@ i:hover{
 }
 h2{
     text-align: center;
-  
+    margin-top: 100px;
     background-color: white;
 }
 footer{
@@ -79,7 +79,5 @@ button{
         padding: 0px;
         margin: 0px;
     }
-    /* .man{
-        width: 100px;
-    } */
+    
 }
