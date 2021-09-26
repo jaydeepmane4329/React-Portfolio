@@ -12,10 +12,10 @@ function App() {
   return (
        <div>
          <Title />
-         <Header />
+          <Header /> 
          <Skills  />
          <Projects />
-         <Contact />
+          <Contact /> 
        </div>
   );
 }

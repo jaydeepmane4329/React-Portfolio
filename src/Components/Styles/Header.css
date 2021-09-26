@@ -39,9 +39,9 @@ p1{
 }
 
 @media only screen and (max-width:600px){
-    /* .header{
+    .header{
         width: 100%;
-    } */
+    }
     .left{
         margin: 0px;
     }
@@ -55,5 +55,8 @@ p1{
     p1{
         font-size: 18px;
 
+    }
+    h2{
+        text-align: center;
     }
 }

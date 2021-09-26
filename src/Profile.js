@@ -6,11 +6,13 @@ import Image5 from './Images/Project-5.png';
 import Image6 from './Images/Project-6.png';
 import Profile from './Images/Profile.jpg';
 import ContactPic from './Images/man.png';
+import Cartoon from './Images/cartoon.png';
 
 
 
 const title = {
-    name : "I'm Jaydeep",
+    cartoon : <img src={Cartoon} height='200px' width="200px" alt="cartoon-png" />,
+    name : "I'm Jaydeep ",
 }
 
 const header = {

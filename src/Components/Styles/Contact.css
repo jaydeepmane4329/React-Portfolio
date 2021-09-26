@@ -35,7 +35,7 @@ h2{
 }
 footer{
     text-align: center;
-    margin: 50px 0px 50px 0px ;
+    margin: 50px ;
     background-color: black;
     color: white;
     font-size: 20px;
@@ -78,6 +78,10 @@ button{
     .contact{
         padding: 0px;
         margin: 0px;
+        width: 100%;
+    }
+    footer{
+        margin: 50px 0px 50px 0px;
     }
     
 }

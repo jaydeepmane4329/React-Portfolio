@@ -12,8 +12,14 @@ function Title(){
     return(
 
       <div className='main' data-aos='onscreen'>
+       
         
         <div  className='title'>
+          
+        <div className='cartoon'>
+          {title.cartoon}
+        </div>
+
           <h1>{title.name}</h1>
 
           <p class="typewriter">This Is My Portfolio...</p> 
