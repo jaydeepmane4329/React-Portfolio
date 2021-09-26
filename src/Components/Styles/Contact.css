@@ -1,0 +1,85 @@
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    border: solid 1px grey;
+    margin: 50px;
+    box-shadow: 10px 10px 8px #888888;
+
+}
+.download{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top:5px
+}
+i{
+    font-size: 50px;
+    margin: 10px;
+    color: rgb(236, 105, 105);
+}
+i:hover{
+    color:black;
+}
+h2{
+    text-align: center;
+  
+    background-color: white;
+}
+footer{
+    text-align: center;
+    margin: 50px 0px 50px 0px ;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+input{
+    margin: 0px 0px 10px 0px;
+    height: 25px;
+    border-radius: 5px;
+    border:grey 1px solid
+
+}
+textarea{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+button{
+    margin: 10px 0px 10px 0px;
+    background-color:rgb(236, 105, 105) ;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width:600px){
+    i{
+        font-size: 20px;
+    }
+    .download{
+        font-size: 12px;
+        margin:0px
+    }
+    /* .wrapper{
+        width: 100%;
+    } */
+    .contactHead{
+        font-size: 25px !important;
+    }
+    .contact{
+        padding: 0px;
+        margin: 0px;
+    }
+    /* .man{
+        width: 100px;
+    } */
+}

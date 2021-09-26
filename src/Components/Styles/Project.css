@@ -1,0 +1,44 @@
+.projects{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 450px;
+    width: 400px;
+    background-color:white;
+    border: 1px solid rgb(224, 221, 221);
+    padding: 10px;
+    margin-top: 50px;
+   box-shadow: 10px 10px 8px #888888;
+
+
+}
+.background{
+    background-color: rgb(240, 77, 77);
+    padding: 50px;
+}
+.img {
+    text-align: center;
+    
+}
+.img:hover{ 
+   transform: scale(1.05);
+   transition: 0.5s;
+   cursor:cell;
+
+}
+h4{
+    text-align:  center;
+    font-size: 25px;
+    margin: 0;
+    color: rgb(240, 77, 77) ;
+}
+h3{
+    text-align: center;
+    color:  rgb(77, 72, 72);
+    margin: 0;
+    text-decoration: none;
+}
+
