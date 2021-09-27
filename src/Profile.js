@@ -119,7 +119,7 @@ const projects =[
 ]
 
 const contact ={
-        man: <img src={ContactPic} alt="cortoon-Image" />
+        man: <img src={ContactPic} height='auto' width='auto' alt="cortoon-Image" />
 }
 
 export {title,skills ,header,projects,contact};
