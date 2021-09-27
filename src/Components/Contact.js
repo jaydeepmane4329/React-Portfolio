@@ -8,18 +8,27 @@ AOS.init();
 
 function Contact(){
     return(
-        <div className='wrapper'
-        data-aos="zoom-in"
-         data-aos-offset="0"
-         data-aos-delay="0"
-         data-aos-duration="1000"
-         data-aos-easing="ease-in-out"
-         data-aos-mirror="true"
-         data-aos-once="false"
-         data-aos-anchor-placement="bottom-bottom">
-      <h2 className='contactHead'>Connect With Me</h2>
+        <div className='wrapper'>
+      <h2
+      data-aos="fade-up"
+      data-aos-offset="0"
+      data-aos-delay="0"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="true"
+      data-aos-anchor-placement="bottom-bottom"
+       className='contactHead'>Connect With Me</h2>
        
-      <div className='contact'>
+      <div className='contact'
+       data-aos="fade-up"
+       data-aos-offset="0"
+       data-aos-delay="0"
+       data-aos-duration="1000"
+       data-aos-easing="ease-in-out"
+       data-aos-mirror="true"
+       data-aos-once="true"
+       data-aos-anchor-placement="bottom-bottom">
             <div >{contact.man}</div>
             <div>
                <a href="https://www.linkedin.com/in/jaydeep-mane-305512198/"><i class="fab fa-linkedin"></i></a>
