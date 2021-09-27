@@ -22,7 +22,7 @@ button{
   padding: 5px;
   background-color: transparent;
   border: 0.1px grey solid;
-  background-color: tomato;
+  background-color: rgb(247, 132, 112);
 }
 button i{
   color: black;
