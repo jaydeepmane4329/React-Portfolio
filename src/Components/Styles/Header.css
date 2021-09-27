@@ -13,10 +13,12 @@
     opacity: 10;
     border: none;
     box-shadow: 10px 10px 8px #888888;
+    margin-top: 200px;
 }
 .right{
   margin: 50px;
   width: 300px;
+  margin-top: 200px;
 
 }
 h2{

@@ -1,4 +1,4 @@
-
+import {Link} from 'react-scroll';
 import React from 'react';
 import Particles from "react-tsparticles";
 import { title } from '../Profile';
@@ -23,6 +23,11 @@ function Title(){
           <h1>{title.name}</h1>
 
           <p class="typewriter">This Is My Portfolio...</p> 
+           
+           <Link id='btn' activeClass='active'
+           to='header'>
+          <button >Click <i class="fas fa-mouse"></i> Here</button>
+          </Link>
           
           </div>
           

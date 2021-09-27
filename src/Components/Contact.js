@@ -11,11 +11,11 @@ function Contact(){
         <div className='wrapper'
         data-aos="zoom-in"
          data-aos-offset="0"
-         data-aos-delay="10"
+         data-aos-delay="0"
          data-aos-duration="1000"
          data-aos-easing="ease-in-out"
          data-aos-mirror="true"
-         data-aos-once="true"
+         data-aos-once="false"
          data-aos-anchor-placement="bottom-bottom">
       <h2 className='contactHead'>Connect With Me</h2>
        
