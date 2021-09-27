@@ -15,14 +15,25 @@
      color:black;
      /* background-color: tomato; */
 }
-#btn i{
-  color: black;
+button{
+  color:black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 25px;
+  padding: 5px;
+  background-color: transparent;
+  border: 0.1px grey solid;
+  background-color: tomato;
+}
+button i{
+  color: black;
+  font-size: 30px;
+  margin: 0px;
  
 }
-#btn:hover{
+button:hover{
   cursor: pointer;
   /* background-color: rgb(241, 76, 47); */
+  background-color: rgb(245, 60, 28);
 }
 
 
@@ -81,11 +92,11 @@ font-family: 'Titillium Web', sans-serif;
       
     h1{
       font-size: 40px;
-      margin-top: 300px;
+      margin-top: 320px;
     }
     p{
       font-size: 15px;
-      margin-top: 350px;
+      margin-top: 380px;
     }
     .main{
       width: 100%;
@@ -94,10 +105,10 @@ font-family: 'Titillium Web', sans-serif;
       width: 100%;
     }
     .cartoon{
-    margin-top: 100px;
+    margin-top: 130px;
     }
     #btn{
-      margin-top: 500px;
+      margin-top: 480px;
     }
   } 
  
