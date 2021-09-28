@@ -2,8 +2,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row;
-    width: auto;
 }
 
 .box{
@@ -43,10 +41,4 @@ h3{
     margin: 0;
     text-decoration: none;
 }
-@media only screen and (max-width:600px){
-    .projects{
-        flex-direction: column;
-    }
-}
-
 

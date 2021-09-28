@@ -43,7 +43,7 @@ h5:hover{
 @media only screen and (max-width:600px){
     p3{
         font-size: 50px;
-        margin: 10px;
+        /* margin: 10px; */
     }
     .skills{
         width:100%;
