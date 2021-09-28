@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row;
+    width: auto;
 }
 
 .box{
@@ -41,4 +43,5 @@ h3{
     margin: 0;
     text-decoration: none;
 }
+
 
