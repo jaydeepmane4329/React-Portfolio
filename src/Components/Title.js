@@ -24,9 +24,9 @@ function Title(){
 
           <p class="typewriter">This Is My Portfolio...</p> 
            
-           <Link id='btn' activeClass='active'
+           <Link id='button' activeClass='active'
            to='header'>
-          <button >Click <i class="fas fa-mouse"></i> Me</button>
+          <button className='btn2'>Click Me <i class="fas fa-mouse"></i> </button>
           </Link>
           
           </div>

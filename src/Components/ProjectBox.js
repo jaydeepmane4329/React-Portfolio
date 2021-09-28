@@ -2,7 +2,7 @@ function ProjectBox(props){
     return(
         <div className='box' 
         data-aos="fade-up"
-        data-aos-offset="0"
+        data-aos-offset="10"
         data-aos-delay="10"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"

@@ -1,5 +1,4 @@
 // import Image from './Images/Profile.jpg';
-
 import { header } from '../Profile';
 import './Styles/Header.css'
 import AOS from 'aos';
@@ -11,7 +10,7 @@ AOS.init();
 
 function Header(){
     return(
-        <div id='header'  data-aos="zoom-in"
+        <div   data-aos="zoom-in"
         data-aos-offset="0"
         data-aos-delay="10"
         data-aos-duration="1000"
