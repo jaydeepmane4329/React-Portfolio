@@ -44,4 +44,10 @@ h3{
     text-decoration: none;
 }
 
+@media only screen and (max-width:600px){
+    .box{
+        box-shadow: none;
+        width: 100%;
+    }
+}
 
