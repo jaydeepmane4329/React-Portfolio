@@ -2,14 +2,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 50%;
-    /* height: 100vh; */
     flex-direction: row;
+    width: 50%;
     margin: auto;
     border: 1px solid grey;
    box-shadow: 10px 10px 8px #888888;
-   /* margin-top: 500px; */
-   padding: 0px;
 
 }
 p3{
@@ -26,14 +23,12 @@ h6{
     font-family: sans-serif;
     text-align: center;
     font-size: 15px;
-    
 }
 h5{
     text-align: center;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:rgb(240, 77, 77);
-    margin-top: 200px;
 }
 h5:hover{
     color: teal;
@@ -43,11 +38,10 @@ h5:hover{
 @media only screen and (max-width:600px){
     p3{
         font-size: 50px;
-        /* margin: 10px; */
+        margin: 10px;
     }
     .skills{
         width:100%;
-        margin:auto
     }
     h6{
         font-size: 10px;
