@@ -3,7 +3,7 @@
 // import './App.css';
 // import Contact from './Components/Contact';
 import Header from './Components/Header';
-// import Projects from './Components/Projects';
+import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Title from './Components/Title';
 
@@ -16,7 +16,7 @@ function App() {
          <Title />
           <Header /> 
          <Skills  />
-         {/* <Projects /> */}
+         <Projects />
           {/* <Contact />  */}
        </>
   );
