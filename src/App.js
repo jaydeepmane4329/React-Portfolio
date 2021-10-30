@@ -14,10 +14,10 @@ function App() {
   return (
        <>
          <Title />
-          <Header /> 
+         <Header /> 
          <Skills  />
          <Projects />
-          <Contact /> 
+         <Contact /> 
        </>
   );
 }

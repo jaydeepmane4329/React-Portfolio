@@ -29,7 +29,7 @@ function Contact(){
        data-aos-mirror="true"
        data-aos-once="true"
        data-aos-anchor-placement="bottom-bottom">
-            <div >{contact.man}</div>
+            <div id="man" >{contact.man}</div>
             <div>
                <a href="https://www.linkedin.com/in/jaydeep-mane-305512198/"><i class="fab fa-linkedin"></i></a>
                <a href="https://www.hackerrank.com/jaydeepmane4329"><i class="fab fa-hackerrank"></i></a>

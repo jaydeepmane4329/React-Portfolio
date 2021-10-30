@@ -9,9 +9,8 @@ import ContactPic from './Images/man.png';
 import Cartoon from './Images/cartoon.png';
 
 
-
 const title = {
-    cartoon : <img src={Cartoon} height='200px' width="200px" alt="cartoon-png" />,
+    cartoon : <img src={Cartoon} height='200px' width="200px" alt="cartoon-png"  />,
     name : "I'm Jaydeep ",
 }
 
@@ -87,25 +86,25 @@ const projects =[
      {
         id: 3,
         img : <img src={Image5} height='250px' width='300px' alt="Project" />,
-        project : 'Windows-11',
-        technologies : 'HTML,CSS,JavaScript',
-        Demo : <a href="file:///F:/repository%20Projects/windows%2011/index.html">Demo Link</a>
+        project : 'Chat-App',
+        technologies : 'React,Firebase',
+        Demo : <a href="https://chat-app-jaydeep.netlify.app/">Demo Link</a>
  
      },
      {
         id: 4,
         img : <img src={Image1} height='250px' width='300px' alt="Project" />,
-        project : 'Price Table',
-        technologies : 'HTML,CSS,React.js',
-        Demo : <a href="https://cashcount.netlify.app/">Demo Link</a>
+        project : 'Mobile Keypad',
+        technologies : 'HTML,CSS,jQuery',
+        Demo : <a href="https://keypadjay.netlify.app/">Demo Link</a>
 
      },
      {
         id: 5,
         img : <img src={Image4} height='250px' width='300px' alt="Project" />,
         project : 'Portfolio',
-        technologies : 'HTML,CSS,React.js',
-        Demo : <a href="https://cashcount.netlify.app/">Demo Link</a>
+        technologies : 'npm,CSS,React.js',
+        Demo : <a href="https://manejaydeep.netlify.app/">Demo Link</a>
 
      },
      {
@@ -113,7 +112,7 @@ const projects =[
         img : <img src={Image6} height='250px' width='300px' alt="Project" />,
         project : ' Simple Portfolio',
         technologies : 'HTML,CSS',
-        Demo : <a href="https://manejaydeep.netlify.app/">Demo Link</a>
+        Demo : <a href="https://jaydeepmane.netlify.app/">Demo Link</a>
 
      }
 ]
