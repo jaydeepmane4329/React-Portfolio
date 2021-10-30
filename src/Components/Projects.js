@@ -24,14 +24,7 @@ function mappingProjects(temp){
 function Projects(){
     return(
         <div className='Pro'>
-            <h5 data-aos="zoom-out"
-        data-aos-offset="200"
-        data-aos-delay="100"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center">Projects</h5>
+            <h5>Projects</h5>
         <div 
        
         className='projects'>{projects.map(mappingProjects)}</div>
