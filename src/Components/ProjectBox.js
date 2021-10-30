@@ -7,7 +7,7 @@ function ProjectBox(props){
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
-        data-aos-once="true"
+        data-aos-once="false"
         data-aos-anchor-placement="top-center">
         <div className='background'>
              <div className ='img'>{props.img}</div>

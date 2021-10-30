@@ -16,7 +16,7 @@ function Contact(){
       data-aos-duration="1000"
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
-      data-aos-once="true"
+      data-aos-once="false"
       data-aos-anchor-placement="bottom-bottom"
        className='contactHead'>Connect With Me</h2>
        
@@ -27,7 +27,7 @@ function Contact(){
        data-aos-duration="1000"
        data-aos-easing="ease-in-out"
        data-aos-mirror="true"
-       data-aos-once="true"
+       data-aos-once="false"
        data-aos-anchor-placement="bottom-bottom">
             <div id="man" >{contact.man}</div>
             <div>
