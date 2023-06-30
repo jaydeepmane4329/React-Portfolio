@@ -6,19 +6,18 @@ import Header from './Components/Header';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Title from './Components/Title';
-
-
-
+import Experience from './Components/Experience';
 
 function App() {
   return (
-       <>
-         <Title />
-         <Header /> 
-         <Skills  />
-         <Projects />
-         <Contact /> 
-       </>
+    <>
+      <Title />
+      <Header />
+      <Experience />
+      <Skills />
+      <Projects />
+      <Contact />
+    </>
   );
 }
 
