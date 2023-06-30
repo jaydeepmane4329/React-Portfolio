@@ -7,29 +7,30 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 
-function mappingProjects(temp){
-    return(
+function mappingProjects(temp) {
+    return (
         <ProjectBox
-         img = {temp.img}
-         project = {temp.project}
-         technologies= {temp.technologies}
-         Demo= {temp.Demo}
+            img={temp.img}
+            project={temp.project}
+            technologies={temp.technologies}
+            Demo={temp.Demo}
         />
     )
 }
-
-
-
-
-function Projects(){
-    return(
+function Projects() {
+    return (
         <div className='Pro'>
-            <h5>Projects</h5>
-        <div 
-       
-        className='projects'>{projects.map(mappingProjects)}</div>
+            <h2 data-aos="fade-up"
+                data-aos-offset="0"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="bottom-bottom">Projects</h2>
+            <div
+                className='projects'>{projects.map(mappingProjects)}</div>
         </div>
-     
     )
 }
 export default Projects;
