@@ -36,9 +36,11 @@
 }
 
 .Pro h2,
-.box h3 {
+.box h3,
+.box h5,
+.box h6 {
     text-align: center;
-    margin: 0;
+    margin: 0.5em;
 }
 
 .Pro h2 {

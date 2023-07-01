@@ -13,8 +13,8 @@ function ProjectBox(props) {
                 <div className='img'>{props.img}</div>
             </div>
             <h3>{props.project}</h3>
-            <h3>{props.technologies}</h3>
-            <h3>{props.Demo}</h3>
+            <h5>{props.technologies}</h5>
+            <h6>{props.Demo}</h6>
         </div>
     )
 }

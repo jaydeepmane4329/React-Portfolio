@@ -38,16 +38,16 @@ h6 {
         margin: 10px;
     }
 
+    .skillsContainer h2 {
+        font-size: 25px;
+    }
+
     .skills {
         width: 100%;
-        margin:0px auto;
+        margin: 0px auto;
     }
 
-    h6 {
+    .skillsBar h6 {
         font-size: 10px;
-    }
-
-    h5 {
-        font-size: 25px;
     }
 }

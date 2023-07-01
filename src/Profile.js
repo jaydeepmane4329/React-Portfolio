@@ -64,6 +64,11 @@ const skills = [
         id: 9,
         name: 'Mongo',
         skill: <i class="fas fa-database"></i>
+    },
+    {
+        id: 10,
+        name: 'Angular',
+        skill: <i class="fa-brands fa-angular"></i>
     }];
 
 
@@ -72,15 +77,15 @@ const projects = [
         id: 1,
         img: <img src={Image1} height='180px' width='180px' alt="Project" />,
         project: 'Crypto-App',
-        technologies: 'HTML,CSS,JavaScript',
+        technologies: 'HTML,CSS,JavaScript,chart.js',
         Demo: <a href="https://cryptocurrancy.netlify.app/">Demo Link</a>
     },
     {
         id: 2,
         img: <img src={Image2} height='180px' width='180px' alt="Project" />,
-        project: 'P',
-        technologies: 'HTML,CSS,JavaScript',
-        Demo: <a href="">Demo Link</a>
+        project: 'Reddit Clone',
+        technologies: 'Angular, Spring Boot',
+        Demo: <a href="https://github.com/jaydeepmane4329/Reddit-Clone.git">Github Link</a>
 
     },
     {
@@ -111,7 +116,7 @@ const projects = [
         id: 6,
         img: <img src={Image6} height='180px' width='180px' alt="Project" />,
         project: 'Stock Analyzer',
-        technologies: 'HTML,CSS',
+        technologies: 'HTML,CSS,DOM Manipulation ',
         Demo: <a href="https://stockanalyser.netlify.app/">Demo Link</a>
 
     }
