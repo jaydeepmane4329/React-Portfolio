@@ -33,7 +33,7 @@ function Contact() {
                     <a href="https://github.com/jaydeepmane4329"><i class="fab fa-github"></i></a>
                     <a href="https://www.instagram.com/jaydeepm_05/"><i class="fab fa-instagram"></i></a>
                     <div>
-                        <a className='download' download href='https://drive.google.com/file/d/17Fqd86llvfl8SE6no8tr_qTiUe5Uc9Oo/view?usp=sharing'><i class="fas fa-download"></i>MY RESUME</a>
+                        <a className='download' download href='https://drive.google.com/file/d/1NCUrEf8VDsI0k2ADU8D5f2LjcoiI_jlu/view?usp=sharing'><i class="fas fa-download"></i>MY RESUME</a>
                     </div>
                 </div>
                 <div>
